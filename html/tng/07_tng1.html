@@ -12,24 +12,36 @@
       <legend>사용자 정보</legend>
       <ul>
         <li>
-          <label for="id">아이디</label>
-          <input type="text" name="id" id="id" minlength="4" maxlength="10" placeholder="4자~10자 사이. 공백없이">
+          <label for="account">아이디</label>
+          <input 
+            type="text"
+            name="account"
+            id="account"
+            minlength="4"
+            maxlength="10"
+            placeholder="4자 ~ 10자 사이. 공백없이"
+          >
         </li>
         <li>
           <label for="email">이메일</label>
-          <input type="email" name="email" id="email" required>
+          <input type="email" name="email" id="email">
         </li>
         <li>
           <label for="password">비밀번호</label>
-          <input type="password" name="password" id="password" placeholder="문자와 숫자, 특수 기호 포함">
+          <input 
+            type="password"
+            name="password"
+            id="password"
+            placeholder="문자와 숫자, 특수 기호 포함"
+          >
         </li>
         <li>
           <label for="recheck">비밀번호 확인</label>
           <input type="password" name="recheck" id="recheck">
         </li>
         <li>
-          <label for="way">가입 경로</label>
-          <select name="way" id="way">
+          <label for="path">가입 경로</label>
+          <select name="path" id="path">
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="ect" selected>기타</option>
@@ -37,15 +49,21 @@
         </li>
         <li>
           <label for="comment">메모</label>
-          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="남길 말씀이 있다면 여기에"></textarea>
+          <textarea 
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="남길 말씀이 있다면 여기에"
+          ></textarea>
         </li>
       </ul>
     </fieldset>
     <fieldset>
       <legend>이벤트와 새로운 소식</legend>
-      <input type="radio" name="mail" id="yesmail">
+      <input type="radio" name="mail" id="yesmail" value="1">
       <label for="yesmail">메일 수신</label>
-      <input type="radio" name="mail" id="nomail" checked>
+      <input type="radio" name="mail" id="nomail" value="0" checked>
       <label for="nomail" >메일 수신 안 함</label>
     </fieldset>
     <button type="submit">가입하기</button>
