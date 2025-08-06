@@ -1,0 +1,16 @@
+.sub-title {
+  color: #ad3000;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* font-family: "Gowun Dodum", sans-serif; */
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  /* font-family: "맑은 고딕"; */
+}
+ul {
+  list-style-type: none;
+  line-height: 2.0rem;
+}
+body {
+  /* font-family: "맑은 고딕"; */
+}
