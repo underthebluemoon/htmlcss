@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.border {
+  border: 1px solid #000;
+  width: 200px;
+  height: 200px;
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  margin: 3px;
+  padding: 50px;
+}
+
+.div-position2 {
+  position: relative;
+  bottom: 150px;
+  left: 270px;
+}
+
+.div-position3 {
+  position: relative;
+  bottom: 100px;
+}

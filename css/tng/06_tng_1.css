@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  background-color: black;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+.header-info {
+  color: #fe9f46;
+}
+
+/* main */
+.main-title {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+}
+.main-box-base {
+  border: 1px solid #6d6d6d;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main-sub-title {
+  color: red;
+  margin: 20px;
+}
+.main-word-highlight {
+  color: #0000ff;
+}

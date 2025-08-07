@@ -1,0 +1,54 @@
+div {
+  border: 0.5px groove #555555;
+  box-sizing: border-box;
+  width: 50vw;
+}
+
+.div-black1 {
+  background-color: black;
+  padding: 1px 10px;
+  margin: 5px auto;
+  height: 140px;
+}
+
+.div-black2 {
+  background-color: black;
+  padding: 3px 10px;
+  margin: 0px auto;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.div-white1, .div-white2 {
+  margin: 0px auto;
+}
+.div-white1 {
+  height: 280px;
+}
+
+.title1, .notice {
+  color: white;
+}
+.title2 {
+  color: red;
+  text-align: center;
+}
+
+.p1 {
+  color: orange;
+}
+.notice {
+  margin: 0;
+}
+.explain {
+  font-weight: bold ;
+  text-align: center;
+}
+.explain-blue {
+  color: blue;
+}
+.explain-time {
+  text-align: center;
+  font-weight: bold ;
+  font-size: 12px;
+}
