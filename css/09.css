@@ -1,0 +1,42 @@
+.background-test1{
+  padding: 10px;
+  background-color: #6495ed;
+  border: 3px dotted #000;
+  /* border-box : default */
+  background-clip: content-box;
+}
+
+.div-bg-img {
+  width: 1000px;
+  height: 1000px;
+  border: 3px solid red;
+  /* 배경을 이미지로 지정 */
+  background-image: url('../html/img/LesserPanda.jpg');
+  /* 배경이미지의 크기 조절.
+  auto(default). contain(이미지 전체가 다 들어가게. 남는 곳은 repeat). cover(이미지가 꽉 차게 들어감) */
+  background-size: 220px;
+  /* 배경이미지의 반복 방법 조절.
+  repeat(default), repeat-x/y(x/y축 반복), space(이미지 사이지 맞지 않으면 빈 공간), round(이미지 확대시켜 바둑판 꽉 차게), no-repeat */
+  background-repeat: round;
+  /* 배경이미지 위치를 조절 */
+  background-position: center;
+}
+
+body {
+  background-image: url('../html/img/docker-mark-blue.png');
+  /* 스크롤이 생길경우 요소의 배경이미지를 고정 */
+  background-attachment: fixed;
+}
+
+.div-gradation {
+  width: 500px;
+  height: 200px;
+  /* 선형 그라데이션.
+  색상 뒤에 색상이 위치할 곳 지정 가능.
+  색상 앞 deg로 각도 조절 가능, 'to 방향'으로 방향 조절 가능 */
+  /* background: linear-gradient(270deg, #000, #fff 20%, #000fff); */
+  /* 원형 그라데이션 */
+  /* 크기에 맞에 타원, 원형으로 만들고 싶은 경우 색상 앞 circle.
+  색상 앞 원심 설정 가능, 한 가운데 50% 50% */
+  background: radial-gradient(circle at 50% 50%, #000, #fff, #000fff);
+}
