@@ -1,3 +1,6 @@
+/* @keyframe frame_name { */
+/* from {이미지 시작 상태} to{마지막 상태} */
+/* } */
 @keyframes moveUpDown {
   from {
     transform: translateY(0);
@@ -28,7 +31,7 @@
   /* transform: skew(5deg, 5deg); */
 
   /* 애니메이션 효과 */
-  /* animation: keyframe_name time attribute */
+  /* animation: frame_name time attribute;*/
    animation: moveUpDown 1s ease-in-out infinite alternate;
 }
 
