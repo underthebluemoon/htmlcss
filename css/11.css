@@ -1,0 +1,6 @@
+/* 가상요소 pseudo-elements :: */
+/* before, after */
+.required-sign::before {
+  content: '*';
+  color: red;
+}

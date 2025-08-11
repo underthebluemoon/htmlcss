@@ -1,0 +1,68 @@
+.field {
+  width: 500px;
+  background-image: url('../../html/img/iwantyou.png');
+  background-size: cover;
+}
+.title {
+  color: rgb(255, 0, 212);
+}
+
+fieldset :focus {
+  outline: none;
+  border: 3px solid red;
+}
+input:checked + label {
+  color: red;
+}
+
+input {
+  background-color: transparent;
+}
+textarea {
+  background-color: transparent;
+}
+
+.ask {
+  vertical-align: top;
+}
+.required-sign::before {
+  content: '*';
+  color: red;
+}
+
+.submit-button {
+  position: relative;
+}
+/* .submit-button:hover::after {
+  position: absolute;
+  left: 55px;
+  top: 1px;
+  width: 250px;
+  height: 28px;
+  z-index: 1;
+  border: 1px solid #000;
+  content: '내용을 다시 한 번 확인해 주세요.';
+  font-size: 18px;
+  color: white;
+  background-color: black;
+} */
+
+.tooltip {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.submit-button:hover + .tooltip{
+  position: absolute;
+  left: 80px;
+  top: 430px;
+  width: 230px;
+  height: 28px;
+  z-index: 1;
+  /* color: #fff;
+  border: 1px solid #000; */
+  visibility: visible;
+  opacity: 1;
+}
