@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gray;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  gap: 10px;
+}
+
+.item {
+  border: 1px solid #000;
+  background-color: cadetblue;
+}
+
+.row-span2 {
+  /* start값 미지정시, 현재 시작점을 기준으로 작동 */
+  grid-row-end: span 2;
+}
+
+.column-span2 {
+  grid-column-end: span 2;
+}
