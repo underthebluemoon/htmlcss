@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* common */
+button {
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 1.5s;
+}
+
+/* header */
+header {
+  background-image: url('./img/img_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+header > h1 {
+  margin: 80px 0;
+  font-size: 4rem;
+}
+
+.header-info > p {
+  margin: 30px 0;
+  font-size: 1.5rem;
+}
+
+/* main */
+main {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.card {
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card-img {
+  padding-top: 70% ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-title {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  padding: 15px;
+}
+.card > a > button {
+  width: 100%;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #252525;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
